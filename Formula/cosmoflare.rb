@@ -4,9 +4,8 @@
 class Cosmoflare < Formula
   desc "Go CLI and library for the full Cloudflare developer platform"
   homepage "https://github.com/CosmoLabs-org/cosmoflare"
-  url "https://github.com/CosmoLabs-org/cosmoflare/releases/download/v0.28.2/cosmoflare-v0.28.2-darwin-arm64.tar.gz"
-  sha256 "47dece786610a64c4cfdf44e597511a054f8574f52abb1b8bb9d8b96605be241"
-  version "0.28.2"
+  url "https://github.com/CosmoLabs-org/cosmoflare/releases/download/v0.29.0/cosmoflare-v0.29.0-darwin-arm64.tar.gz"
+  sha256 "637712d309a5f75ce0a34004f44abdf505a088ae5ff08c9426186be5c8c93005"
   license "MIT"
 
   livecheck do
@@ -16,23 +15,23 @@ class Cosmoflare < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/CosmoLabs-org/cosmoflare/releases/download/v0.28.2/cosmoflare-v0.28.2-darwin-arm64.tar.gz"
-      sha256 "47dece786610a64c4cfdf44e597511a054f8574f52abb1b8bb9d8b96605be241"
+      url "https://github.com/CosmoLabs-org/cosmoflare/releases/download/v0.29.0/cosmoflare-v0.29.0-darwin-arm64.tar.gz"
+      sha256 "637712d309a5f75ce0a34004f44abdf505a088ae5ff08c9426186be5c8c93005"
     end
     on_intel do
-      url "https://github.com/CosmoLabs-org/cosmoflare/releases/download/v0.28.2/cosmoflare-v0.28.2-darwin-amd64.tar.gz"
-      sha256 "d25990399bf69a209f67d305c252db68d6ab2decb2de05687947c404aae39867"
+      url "https://github.com/CosmoLabs-org/cosmoflare/releases/download/v0.29.0/cosmoflare-v0.29.0-darwin-amd64.tar.gz"
+      sha256 "a33dcbbffd6f341fe2312b616e1a4d343cc783c43ee716bc8d3675f225544168"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/CosmoLabs-org/cosmoflare/releases/download/v0.28.2/cosmoflare-v0.28.2-linux-arm64.tar.gz"
-      sha256 "e6f0cfe94cab8a1882f29f0be6becb438c57808d049080604e6d531eda549c6a"
+      url "https://github.com/CosmoLabs-org/cosmoflare/releases/download/v0.29.0/cosmoflare-v0.29.0-linux-arm64.tar.gz"
+      sha256 "7f568cfd5f1186e27d3f2c18b695e88c3cba72fce55198730c13d5e88e624ff2"
     end
     on_intel do
-      url "https://github.com/CosmoLabs-org/cosmoflare/releases/download/v0.28.2/cosmoflare-v0.28.2-linux-amd64.tar.gz"
-      sha256 "59d2be4ed1e3576e86fa14f4b56f49791c3103692a3349d9a1c9f0637ba0eebf"
+      url "https://github.com/CosmoLabs-org/cosmoflare/releases/download/v0.29.0/cosmoflare-v0.29.0-linux-amd64.tar.gz"
+      sha256 "38f9253dfe6cede9c2a590417c1d4ac0104c53219fb50f040863a9714637292d"
     end
   end
 
